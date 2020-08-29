@@ -1,12 +1,12 @@
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: Python package
+name: Python mii
 
-on:
-  push:
+on: terus
+  push: terus
     branches: [ master ]
-  pull_request:
+  pull_request:mii
     branches: [ master ]
 
 jobs:
